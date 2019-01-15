@@ -1,0 +1,49 @@
+<apex:page controller="groupsFilteringController" docType="html-5.0">
+    <apex:sectionHeader title="Testing Group Validation" subtitle="Groups Filtering"/>
+    
+    <apex:pageBlock >
+        <h3>Group List:</h3>
+    	<br />
+    	<apex:outputLabel >Role ID: </apex:outputLabel>
+		<apex:outputLabel >{!roleID}</apex:outputLabel>
+    </apex:pageBlock>
+        
+    <apex:pageBlock >
+        <h3>Role List:</h3>
+    	<br />
+        <apex:repeat value="{!roleList}" var="role" id="roleBlock">
+            <apex:outputLabel >Role Id: </apex:outputLabel>
+            <apex:outputLabel >{!role.Id}</apex:outputLabel>
+            <br />
+            <apex:outputLabel >Role Related Id: </apex:outputLabel>
+            <apex:outputLabel >{!role.RelatedId}</apex:outputLabel>
+            <br />
+            <apex:outputLabel >Role Type: </apex:outputLabel>
+            <apex:outputLabel >{!role.Type}</apex:outputLabel>
+            <br />
+        </apex:repeat>	
+    </apex:pageBlock>
+    
+    <apex:pageBlock >
+        <h3>Group List:</h3>
+    	<br />
+        
+        <!--
+        <apex:outputLabel rendered="IF({!relatedGroupIds}) { true; } ELSE { false; }">
+            No results found. This user might not belong to any of the groups witch cleareance.
+        </apex:outputLabel>
+        -->
+        
+        <apex:repeat value="{!relatedGroupIds}" var="group" id="groupBlock">
+            <apex:outputLabel >Group Id: </apex:outputLabel>
+            <apex:outputLabel >{!group}</apex:outputLabel>
+            <br />
+            <apex:outputLabel >Group Name: </apex:outputLabel>
+            <apex:outputLabel >{!group}</apex:outputLabel>
+            <br />
+            <apex:outputLabel >Group Type: </apex:outputLabel>
+            <apex:outputLabel >{!group}</apex:outputLabel>
+            <br />
+        </apex:repeat>	
+    </apex:pageBlock>
+</apex:page>

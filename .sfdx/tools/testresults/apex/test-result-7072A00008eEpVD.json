@@ -1,0 +1,118 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 4,
+        "passing": 4,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Jan 14, 2019 6:28 PM",
+        "testExecutionTime": "42 ms",
+        "testTotalTime": "42 ms",
+        "commandTime": "6642 ms",
+        "hostname": "https://aguacat-dev-ed.my.salesforce.com",
+        "orgId": "00DF00000008ZhqMAE",
+        "username": "lukasgomez@me.com",
+        "testRunId": "7072A00008eEpVD",
+        "userId": "005F0000003wEOtIAM"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v44.0/tooling/sobjects/ApexTestResult/07M2A000004XpkLUAS"
+            },
+            "Id": "07M2A000004XpkLUAS",
+            "QueueItemId": "7092A000000IWLTQA4",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072A00008eEpVDQA0",
+            "MethodName": "testBoilingPoint",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v44.0/tooling/sobjects/ApexClass/01p2A000003yD7uQAE"
+                },
+                "Id": "01p2A000003yD7uQAE",
+                "Name": "TemperatureConverterTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 14,
+            "FullName": "TemperatureConverterTest.testBoilingPoint"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v44.0/tooling/sobjects/ApexTestResult/07M2A000004XpkMUAS"
+            },
+            "Id": "07M2A000004XpkMUAS",
+            "QueueItemId": "7092A000000IWLTQA4",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072A00008eEpVDQA0",
+            "MethodName": "testFreezingPoint",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v44.0/tooling/sobjects/ApexClass/01p2A000003yD7uQAE"
+                },
+                "Id": "01p2A000003yD7uQAE",
+                "Name": "TemperatureConverterTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 10,
+            "FullName": "TemperatureConverterTest.testFreezingPoint"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v44.0/tooling/sobjects/ApexTestResult/07M2A000004XpkNUAS"
+            },
+            "Id": "07M2A000004XpkNUAS",
+            "QueueItemId": "7092A000000IWLTQA4",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072A00008eEpVDQA0",
+            "MethodName": "testNegativeTem",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v44.0/tooling/sobjects/ApexClass/01p2A000003yD7uQAE"
+                },
+                "Id": "01p2A000003yD7uQAE",
+                "Name": "TemperatureConverterTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 8,
+            "FullName": "TemperatureConverterTest.testNegativeTem"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v44.0/tooling/sobjects/ApexTestResult/07M2A000004XpkOUAS"
+            },
+            "Id": "07M2A000004XpkOUAS",
+            "QueueItemId": "7092A000000IWLTQA4",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072A00008eEpVDQA0",
+            "MethodName": "testWarmTemp",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v44.0/tooling/sobjects/ApexClass/01p2A000003yD7uQAE"
+                },
+                "Id": "01p2A000003yD7uQAE",
+                "Name": "TemperatureConverterTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 10,
+            "FullName": "TemperatureConverterTest.testWarmTemp"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Jan 14, 2019 6:28 PM",
+        "testExecutionTime": "36 ms",
+        "testTotalTime": "36 ms",
+        "commandTime": "7258 ms",
+        "hostname": "https://aguacat-dev-ed.my.salesforce.com",
+        "orgId": "00DF00000008ZhqMAE",
+        "username": "lukasgomez@me.com",
+        "testRunId": "7072A00008eEpUU",
+        "userId": "005F0000003wEOtIAM"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v44.0/tooling/sobjects/ApexTestResult/07M2A000004XpkGUAS"
+            },
+            "Id": "07M2A000004XpkGUAS",
+            "QueueItemId": "7092A000000IWLOQA4",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072A00008eEpUUQA0",
+            "MethodName": "testBoilingPoint",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v44.0/tooling/sobjects/ApexClass/01p2A000003yD7uQAE"
+                },
+                "Id": "01p2A000003yD7uQAE",
+                "Name": "TemperatureConverterTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 36,
+            "FullName": "TemperatureConverterTest.testBoilingPoint"
+        }
+    ]
+}

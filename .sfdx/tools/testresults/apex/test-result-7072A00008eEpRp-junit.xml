@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2019-01-14T18:27:35-04:00" hostname="https://aguacat-dev-ed.my.salesforce.com" tests="4" failures="1"  errors="0"  time="0.1">
+        <properties>
+            <property name="outcome" value="Failed"/>
+            <property name="testsRan" value="4"/>
+            <property name="passing" value="3"/>
+            <property name="failing" value="1"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="75%"/>
+            <property name="failRate" value="25%"/>
+            <property name="testStartTime" value="Jan 14, 2019 6:27 PM"/>
+            <property name="testExecutionTime" value="0.1 s"/>
+            <property name="testTotalTime" value="0.1 s"/>
+            <property name="commandTime" value="8.34 s"/>
+            <property name="hostname" value="https://aguacat-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00DF00000008ZhqMAE"/>
+            <property name="username" value="lukasgomez@me.com"/>
+            <property name="testRunId" value="7072A00008eEpRp"/>
+            <property name="userId" value="005F0000003wEOtIAM"/>
+        </properties>
+        <testcase name="testBoilingPoint" classname="TemperatureConverterTest" time="0.05">
+            <failure message="System.AssertException: Assertion Failed: Boiling point temperature is not expected: Expected: 0, Actual: 100.00"><![CDATA[Class.TemperatureConverterTest.testBoilingPoint: line 15, column 1]]></failure>
+        </testcase>
+        <testcase name="testFreezingPoint" classname="TemperatureConverterTest" time="0.02">
+        </testcase>
+        <testcase name="testNegativeTem" classname="TemperatureConverterTest" time="0.01">
+        </testcase>
+        <testcase name="testWarmTemp" classname="TemperatureConverterTest" time="0.02">
+        </testcase>
+    </testsuite>
+</testsuites>
